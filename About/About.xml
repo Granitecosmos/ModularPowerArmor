@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Modular Power Armor</name>
+	<author>Granitecosmos</author>
+	<url></url>
+	<targetVersion>0.16.0</targetVersion>
+	<description>Adds Modular Power Armor as well as tweaks original Power Armor recipe. Also slightly changes Mechanoid disassembly drops.</description>
+</ModMetaData>

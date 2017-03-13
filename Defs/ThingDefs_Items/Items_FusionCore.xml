@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- The Fusion Core, sporting the not-so-glorious texture made by me in Paint.net. -->
+<GameData>
+	<ThingDef ParentName="ResourceBase">
+		<defName>FusionCore</defName>
+		<label>Fusion Core</label>
+		<description>An advanced power source that can last thousands of years.</description>
+		<graphicData>
+			<texPath>Items/FusionCore/FusionCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+</GameData>

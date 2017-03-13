@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Here you'll find the new Power Armor sets.
+I've left some notes here and there if someone is curious enough to explore this file. Search for "Note"to quickly jump to them.
+If you want to quickly jump to the beginning or end of a specific tier, search for <Mark I> or </Mark I>.
+Obviously the other tiers have their respective roman numbers. -->
+<!-- Note: recipes aren't here because I unlock them via a research and assign them to an existing Workbench.
+It's probably possible to do so while including the recipe here but this works anyway and I'm too lazy to change it. -->
+<!-- Note: I didn't assign quality to these because I don't like the gamble (a.k.a. quality) system in RimWorld that much.
+The player will need serious resources and time to unlock and build the higher tier pieces anyway, might as well disable quality trolling.
+Not to mention how horribly unbalanced the quality price scaling is in this game as of A16 and below. -->
+<!-- Note: Chest and Helmet entries all use the base game's textures but I had to include them in the mod anyway.
+Those textures are unmodified Rimworld ones. -->
+<!-- Note: Arm and Leg entries use textures from the old Apparello mod. All credits goes to Shinzy for the textures.
+Thank you Shinzy for granting me permission to use them! -->
+<ThingDefs>
+	<ThingDef Name="ApparelModularPowerArmor" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<techLevel>Spacer</techLevel>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<!-- Note: the below line prohibits the item from appearing in traders' inventory but you can still sell them as any other apparel. -->
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<Flammability>0.2</Flammability>
+			<!-- Note: the below line disables deterioration due to the item being unroofed because why not? -->
+			<DeteriorationRate>0</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+				<!-- Note: I might as well delete the above line since I've decided that pure white armor is the way to go.
+				Why? I dunno... Maybe Stormtroopers? Yeah, must be because of Stormtroopers. Might change in the future though. -->
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- <Mark I> -->
+	<ThingDef ParentName="ApparelModularPowerArmor">
+		<defName>PowerArmorMK1Chest</defName>
+		<label>M-PA Mk1-C</label>
+		<description>The Modular Power Armor Mark One Chest-piece is part of the high-tech modular power armor set.</description>
+		<graphicData>
+			<texPath>Apparel/PowerArmor/PowerArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<!-- Note: this category is a new one added by me. -->
+			<li>Mark1</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>1880</MarketValue>
+			<Mass>7</Mass>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<ArmorRating_Electric>0.0</ArmorRating_Electric>
+			<Insulation_Cold>-21</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.06</MoveSpeed>
+			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
+			<SocialImpact>0.01</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<commonality>0</commonality>
+			<tags>
+				<!-- Note: no tags ensure no NPC pawn will ever appear with this apparel equipped. Works as intended. -->
+			</tags>
+			<defaultOutfitTags>
+				<!-- Note: no tags ensure no NPC pawn will ever appear with this apparel equipped. Works as intended. -->
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+		<defName>PowerArmorMK1Helmet</defName>
+		<label>M-PA Mk1-H</label>
+		<description>The Modular Power Armor Mark One Head-piece is part of the high-tech modular power armor set.</description>
+		<graphicData>
+			<texPath>Apparel/PowerArmor/PowerArmorHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>Mark1</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>470</MarketValue>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<ArmorRating_Electric>0.0</ArmorRating_Electric>
+			<Insulation_Cold>-5</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
+			<SocialImpact>0.01</SocialImpact>
+			<PsychicSensitivity>-0.05</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>0</commonality>
+			<tags>
+			</tags>
+			<defaultOutfitTags>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+		<defName>PowerArmorMK1Arm</defName>
+		<label>M-PA Mk1-A</label>
+		<description>The Modular Power Armor Mark One Arm-piece is part of the high-tech modular power armor set.</description>
+		<graphicData>
+			<texPath>Apparel/PowerArmor/PowerArmorArm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>Mark1</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>940</MarketValue>
+			<Mass>3</Mass>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<ArmorRating_Electric>0.0</ArmorRating_Electric>
+			<Insulation_Cold>-11</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.03</MoveSpeed>
+			<WorkSpeedGlobal>-0.02</WorkSpeedGlobal>
+			<SocialImpact>0.01</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<commonality>0</commonality>
+			<tags>
+			</tags>
+			<defaultOutfitTags>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+		<defName>PowerArmorMK1Leg</defName>
+		<label>M-PA Mk1-L</label>
+		<description>The Modular Power Armor Mark One Leg-piece is part of the high-tech modular power armor set.</description>
+		<graphicData>
+			<texPath>Apparel/PowerArmor/PowerArmorLeg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>Mark1</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>1410</MarketValue>
+			<Mass>5</Mass>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<ArmorRating_Electric>0.0</ArmorRating_Electric>
+			<Insulation_Cold>-16</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.04</MoveSpeed>
+			<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
+			<SocialImpact>0.01</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<commonality>0</commonality>
+			<tags>
+			</tags>
+			<defaultOutfitTags>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<!-- </Mark I> -->
+	<!-- <Mark II> -->
+	<ThingDef ParentName="ApparelModularPowerArmor">
+		<defName>PowerArmorMK2Chest</defName>
+		<label>M-PA Mk2-C</label>
+		<description>The Modular Power Armor Mark Two Chest-piece is part of the high-tech modular power armor set.</description>
+		<graphicData>
+			<texPath>Apparel/PowerArmor/PowerArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>Mark2</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<MarketValue>3290</MarketValue>
+			<Mass>7</Mass>
+			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.14</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<ArmorRating_Electric>0.0</ArmorRating_Electric>
+			<Insulation_Cold>-28</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
+			<SocialImpact>0.02</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<commonality>0</commonality>
+			<tags>
+			</tags>
+			<defaultOutfitTags>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK2Helmet</defName>
+	<label>M-PA Mk2-H</label>
+	<description>The Modular Power Armor Mark Two Head-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark2</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<MarketValue>823</MarketValue>
+		<Mass>2</Mass>
+		<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.14</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.50</ArmorRating_Heat>
+		<ArmorRating_Electric>0.0</ArmorRating_Electric>
+		<Insulation_Cold>-7</Insulation_Cold>
+		<Insulation_Heat>2</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
+		<SocialImpact>0.02</SocialImpact>
+		<PsychicSensitivity>-0.10</PsychicSensitivity>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK2Arm</defName>
+	<label>M-PA Mk2-A</label>
+	<description>The Modular Power Armor Mark Two Arm-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorArm</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark2</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>400</MaxHitPoints>
+		<MarketValue>1645</MarketValue>
+		<Mass>3</Mass>
+		<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.14</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.50</ArmorRating_Heat>
+		<ArmorRating_Electric>0.0</ArmorRating_Electric>
+		<Insulation_Cold>-14</Insulation_Cold>
+		<Insulation_Heat>4</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>-0.02</WorkSpeedGlobal>
+		<SocialImpact>0.02</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK2Leg</defName>
+	<label>M-PA Mk2-L</label>
+	<description>The Modular Power Armor Mark Two Leg-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorLeg</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark2</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>600</MaxHitPoints>
+		<MarketValue>2468</MarketValue>
+		<Mass>5</Mass>
+		<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.14</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.50</ArmorRating_Heat>
+		<ArmorRating_Electric>0.0</ArmorRating_Electric>
+		<Insulation_Cold>-21</Insulation_Cold>
+		<Insulation_Heat>6</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
+		<SocialImpact>0.02</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<!-- </Mark 2> -->
+	<!-- <Mark 3> -->
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK3Chest</defName>
+	<label>M-PA Mk3-C</label>
+	<description>The Modular Power Armor Mark Three Chest-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark3</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<MarketValue>4700</MarketValue>
+		<Mass>7</Mass>
+		<ArmorRating_Blunt>1.48</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.63</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.75</ArmorRating_Heat>
+		<ArmorRating_Electric>0.25</ArmorRating_Electric>
+		<Insulation_Cold>-36</Insulation_Cold>
+		<Insulation_Heat>20</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.01</MoveSpeed>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK3Helmet</defName>
+	<label>M-PA Mk3-H</label>
+	<description>The Modular Power Armor Mark Three Head-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark3</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<MarketValue>1175</MarketValue>
+		<Mass>2</Mass>
+		<ArmorRating_Blunt>1.48</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.63</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.75</ArmorRating_Heat>
+		<ArmorRating_Electric>0.25</ArmorRating_Electric>
+		<Insulation_Cold>-9</Insulation_Cold>
+		<Insulation_Heat>5</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.01</MoveSpeed>
+		<SocialImpact>0.03</SocialImpact>
+		<PsychicSensitivity>-0.15</PsychicSensitivity>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK3Arm</defName>
+	<label>M-PA Mk3-A</label>
+	<description>The Modular Power Armor Mark Three Arm-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorArm</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark3</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>600</MaxHitPoints>
+		<MarketValue>2350</MarketValue>
+		<Mass>3</Mass>
+		<ArmorRating_Blunt>1.48</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.63</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.75</ArmorRating_Heat>
+		<ArmorRating_Electric>0.25</ArmorRating_Electric>
+		<Insulation_Cold>-18</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.01</MoveSpeed>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK3Leg</defName>
+	<label>M-PA Mk3-L</label>
+	<description>The Modular Power Armor Mark Three Leg-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorLeg</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark3</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>900</MaxHitPoints>
+		<MarketValue>3525</MarketValue>
+		<Mass>5</Mass>
+		<ArmorRating_Blunt>1.48</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.63</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.75</ArmorRating_Heat>
+		<ArmorRating_Electric>0.25</ArmorRating_Electric>
+		<Insulation_Cold>-27</Insulation_Cold>
+		<Insulation_Heat>15</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.01</MoveSpeed>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<!-- </Mark 3> -->
+	<!-- <Mark 4> -->
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK4Chest</defName>
+	<label>M-PA Mk4-C</label>
+	<description>The Modular Power Armor Mark Four Chest-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark4</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>1600</MaxHitPoints>
+		<MarketValue>6110</MarketValue>
+		<Mass>7</Mass>
+		<ArmorRating_Blunt>2.04</ArmorRating_Blunt>
+		<ArmorRating_Sharp>2.12</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.00</ArmorRating_Heat>
+		<ArmorRating_Electric>0.75</ArmorRating_Electric>
+		<Insulation_Cold>-40</Insulation_Cold>
+		<Insulation_Heat>24</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.04</MoveSpeed>
+		<SocialImpact>0.04</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK4Helmet</defName>
+	<label>M-PA Mk4-H</label>
+	<description>The Modular Power Armor Mark Four Head-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark4</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>400</MaxHitPoints>
+		<MarketValue>1528</MarketValue>
+		<Mass>2</Mass>
+		<ArmorRating_Blunt>2.04</ArmorRating_Blunt>
+		<ArmorRating_Sharp>2.12</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.00</ArmorRating_Heat>
+		<ArmorRating_Electric>0.75</ArmorRating_Electric>
+		<Insulation_Cold>-10</Insulation_Cold>
+		<Insulation_Heat>6</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.01</MoveSpeed>
+		<SocialImpact>0.04</SocialImpact>
+		<PsychicSensitivity>-0.20</PsychicSensitivity>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK4Arm</defName>
+	<label>M-PA Mk4-A</label>
+	<description>The Modular Power Armor Mark Four Arm-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorArm</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark4</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>800</MaxHitPoints>
+		<MarketValue>3055</MarketValue>
+		<Mass>3</Mass>
+		<ArmorRating_Blunt>2.04</ArmorRating_Blunt>
+		<ArmorRating_Sharp>2.12</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.00</ArmorRating_Heat>
+		<ArmorRating_Electric>0.75</ArmorRating_Electric>
+		<Insulation_Cold>-20</Insulation_Cold>
+		<Insulation_Heat>12</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.02</MoveSpeed>
+		<SocialImpact>0.04</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK4Leg</defName>
+	<label>M-PA Mk4-L</label>
+	<description>The Modular Power Armor Mark Four Leg-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorLeg</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark4</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<MarketValue>4583</MarketValue>
+		<Mass>5</Mass>
+		<ArmorRating_Blunt>2.04</ArmorRating_Blunt>
+		<ArmorRating_Sharp>2.12</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.00</ArmorRating_Heat>
+		<ArmorRating_Electric>0.75</ArmorRating_Electric>
+		<Insulation_Cold>-30</Insulation_Cold>
+		<Insulation_Heat>18</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.03</MoveSpeed>
+		<SocialImpact>0.04</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<!-- </Mark 4> -->
+	<!-- <Mark 5> -->
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK5Chest</defName>
+	<label>M-PA Mk5-C</label>
+	<description>The Modular Power Armor Mark Five Chest-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark5</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>4000</MaxHitPoints>
+		<MarketValue>7520</MarketValue>
+		<Mass>7</Mass>
+		<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+		<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.25</ArmorRating_Heat>
+		<ArmorRating_Electric>1.25</ArmorRating_Electric>
+		<Insulation_Cold>-50</Insulation_Cold>
+		<Insulation_Heat>30</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.08</MoveSpeed>
+		<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+		<ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+		<SocialImpact>0.05</SocialImpact>
+		<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK5Helmet</defName>
+	<label>M-PA Mk5-H</label>
+	<description>The Modular Power Armor Mark Five Head-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorHelmet</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark5</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<MarketValue>1880</MarketValue>
+		<Mass>2</Mass>
+		<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+		<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.25</ArmorRating_Heat>
+		<ArmorRating_Electric>1.25</ArmorRating_Electric>
+		<Insulation_Cold>-12.5</Insulation_Cold>
+		<Insulation_Heat>7.5</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.02</MoveSpeed>
+		<WorkSpeedGlobal>0.01</WorkSpeedGlobal>
+		<ShootingAccuracy>0.20</ShootingAccuracy>
+		<SocialImpact>0.05</SocialImpact>
+		<PsychicSensitivity>-0.25</PsychicSensitivity>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK5Arm</defName>
+	<label>M-PA Mk5-A</label>
+	<description>The Modular Power Armor Mark Five Arm-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorArm</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark5</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<MarketValue>3760</MarketValue>
+		<Mass>3</Mass>
+		<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+		<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.25</ArmorRating_Heat>
+		<ArmorRating_Electric>1.25</ArmorRating_Electric>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>15</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.04</MoveSpeed>
+		<WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+		<AimingDelayFactor>-0.20</AimingDelayFactor>
+		<MeleeHitChance>0.20</MeleeHitChance>
+		<SocialImpact>0.05</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelModularPowerArmor">
+	<defName>PowerArmorMK5Leg</defName>
+	<label>M-PA Mk5-L</label>
+	<description>The Modular Power Armor Mark Five Leg-piece is part of the high-tech modular power armor set.</description>
+	<graphicData>
+		<texPath>Apparel/PowerArmor/PowerArmorLeg</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingCategories>
+		<li>Mark5</li>
+	</thingCategories>
+	<statBases>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<MarketValue>5640</MarketValue>
+		<Mass>5</Mass>
+		<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+		<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+		<ArmorRating_Heat>1.25</ArmorRating_Heat>
+		<ArmorRating_Electric>1.25</ArmorRating_Electric>
+		<Insulation_Cold>-37.5</Insulation_Cold>
+		<Insulation_Heat>22.5</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.16</MoveSpeed>
+		<WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+		<SocialImpact>0.05</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<commonality>0</commonality>
+		<tags>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	<!-- </Mark 5> -->
+</ThingDefs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Here are all the research projects I'm adding to the game.
+Note the lack of coordinates for the Research Tree. This is because the current iteration of the Tree is anything but mod-friendly.
+Since it will probably be changed soon anyway since Tynan is a cool guy and wants the game to be mod friendly I'm not gonna bother with it.
+I'll recommend using a mod that reverts the Tech Tree changes on the forum post instead. -->
+<ResearchProjectDefs>
+	<ResearchProjectDef>
+		<defName>MPA-Mk1</defName>
+		<label>Modular Power Armor Mk. I</label>
+		<description>Alows the breakdown of the original power armor set to modularize it by creating independent attachable sub-parts.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PoweredArmor</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>MPA-Mk2</defName>
+		<label>Modular Power Armor Mk. II</label>
+		<description>Improve the modular power armor by reinforcing the chassis, fixing temperature leaks, adding basic air conditioning and improving the servos.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MPA-Mk1</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>MPA-Mk3</defName>
+		<label>Modular Power Armor Mk. III</label>
+		<description>Improve the modular power armor by improving environmental resistance, introducing a new alloy to the structural armor and servos and improving the insulation with advanced textiles.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MPA-Mk2</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>MPA-Mk4</defName>
+		<label>Modular Power Armor Mk. IV</label>
+		<description>Improve the modular power armor by reinforcing the plating, applying better conductors and using advanced miniaturizing technology.</description>
+		<baseCost>6000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MPA-Mk3</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>MPA-Mk5</defName>
+		<label>Modular Power Armor Mk. V</label>
+		<description>Improve the modular power armor by overclocking the servos, applying hyperweave reinforcement in order to increase integrity and maximizing environmental protection according to information gathered by localized scans. This is the ultimate armor.</description>
+		<baseCost>7000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MPA-Mk4</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+</ResearchProjectDefs>

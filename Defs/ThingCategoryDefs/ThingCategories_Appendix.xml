@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file contains my new categories for the Modular Power Armors. That's all.
+Parent is obviously Apparel because otherwise it wouldn't be assignable in the Outfits menu. -->
+<ThingCategoryDefs>
+	<!-- <Modular Power Armor Sets> -->
+	<ThingCategoryDef>
+		<defName>ModularPowerArmor</defName>
+		<label>Modular Power Armor</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Mark1</defName>
+		<label>MK I</label>
+		<parent>ModularPowerArmor</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Mark2</defName>
+		<label>MK II</label>
+		<parent>ModularPowerArmor</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Mark3</defName>
+		<label>MK III</label>
+		<parent>ModularPowerArmor</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Mark4</defName>
+		<label>MK IV</label>
+		<parent>ModularPowerArmor</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Mark5</defName>
+		<label>MK V</label>
+		<parent>ModularPowerArmor</parent>
+	</ThingCategoryDef>
+	<!-- </Modular Power Armor Sets> -->
+</ThingCategoryDefs>
+
+
