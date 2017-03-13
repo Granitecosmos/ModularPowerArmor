@@ -17,7 +17,7 @@ Probably inspired by Fallout 4's system and the fact that vanilla Power Armor ki
 
 But wait, there's more!
 
-Now you can disassemble your vanilla Power Armors and get all the materials back you need to craft one. You can use this to either reroll quality by disassembling and recrafting or to use the materials to make my Modular Power Armor!
+Now you can disassemble your vanilla Power Armors and get all the materials back that you need to craft one. You can use this to either reroll quality by disassembling and recrafting (which also fixes the damage) or to use the materials to make my Modular Power Armor!
 
 All Power Armors now require Fusion Cores to craft. You can get these by disassembling vanilla Power Armor, disassembling Mechanoids or just being lucky enough to find some in an exotic trader's stock.
 
@@ -32,7 +32,7 @@ I personally recommend skyarkhangel's Old style research menu mod: https://ludeo
 Is this balanced?
 Honestly, is vanilla RimWorld balanced? OF COURSE NOT!
 
-Honestly I tried to make it kinda balanced. The problem with the original Power Armor is that it's market value is way overpriced compared to the benefits in my opinion. Couple this with the flawed quality system where Legendary has double the armor but also has FIVE TIMES higher market value! Since the power budget of Raids depends on the total market value of your colonies this can easily get out of hand. So how to fix this?
+I really tried to make it kinda balanced. The problem with the original Power Armor is that it's market value is way overpriced compared to the benefits in my opinion. Couple this with the flawed quality system where Legendary has double the armor but also has FIVE TIMES higher market value! Since the power budget of Raids depends on the total market value of your colonies this can easily get out of hand. So how to fix this?
 
 Easy! Since the problem is too high base value and ridiculous quality price scaling, I've removed the quality from these and made sure their value-to-protection scales better the higher tier you craft. This also prevents quality trolling, when your high level crafter rolls a shoddy Power Armor.
 
@@ -42,7 +42,7 @@ As for balance, the first tier is basically the same as vanilla but can cover th
 
 # Credits
 
-I'd like to thank Ykara for giving me permission to use and modify the source of A12 EPOE. I've created this mod back in A12 for personal use and I wanted to achieve something I thought was only possible via C#. It turned out that wasn't really the case but I did anyway since this was my first DLL mod project ever and indeed I was successful.
+I'd like to thank Ykara for giving me permission to use and modify the source of A12 EPOE. I've created this mod back in A12 for personal use and I wanted to achieve something I thought was only possible via C#. It turned out that wasn't really the case but I did anyway since this was my first DLL mod project ever and indeed I was successful. I didn't carry the DLL over to A13 though.
 
 I'd also like to thank Shinzy for giving me permission to use two textures from the old A12 Apparello mod. These two textures are assigned to be the display textures for every Arm and Leg piece of the Modular Armor sets.
 
@@ -54,7 +54,7 @@ The rest of the textures included are vanilla textures.
 
 # Compatibility
 
-This mod isn't compatibe with any other mod that changes:
+This mod isn't compatible with any other mod that changes:
 - Vanilla Power Armor
 - The Mechanoid race.
 
