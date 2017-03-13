@@ -1,13 +1,13 @@
 # Modular Power Armor
 
-Ever wondered why the Power Armor doesn't cover some bodyparts like the hands? Ever got annoyed because you can't have your truly lategame equipment because even Legenrady Power Armors aren't adequate?
+Ever wondered why the Power Armor doesn't cover some bodyparts like the hands? Ever got annoyed because you can't have your truly lategame equipment because even Legendary Power Armors aren't adequate?
 
 Well fear not, for I bring you Modular Power Armors!
 
 Probably inspired by Fallout 4's system and the fact that vanilla Power Armor kinda sucks, this aims to fix the issue!
 
 - Five tiers of Power Armor, the higher you go the better it becomes!
-- Modular here means every full set consists of four pieces: Chest, Leg, Arm and Helmet. All four combined covers the entire body! Certain pieces will have specific bonuses at higher tiers, like Leg pieces adding an additional speed boost.
+- Modular means every full set consists of four pieces: Chest, Leg, Arm and Helmet. All four combined covers the entire body! Certain pieces will have specific bonuses at higher tiers, like Leg pieces adding an additional speed boost.
 - Cost also scales with tier, higher tiers requiring more advanced materials to craft!
 - Higher tier version requires the lower tier one in the crafting recipe. No waste, feel free to build the lower tiers because you'll have to anyway!
 - Additional research because this is supposed to be lategame stuff!
@@ -45,6 +45,10 @@ I'd like to thank Ykara for giving me permission to use and modify the source of
 I'd also like to thank Shinzy for giving me permission to use two textures from the old A12 Apparello mod. These two textures are assigned to be the display textures for every Arm and Leg piece of the Modular Armor sets.
 
 And lastly, but certainly not least, I'd like to thank Thirite for pointing out the obvious, allowing me to fix the last thing missing from the mod to finally be publish-worthy.
+
+I'd like to mention here that the (rather shoddy) texture for the Fusion Core was made by me. Feel free to do whatever you want with it. If you think you can make something similar that's also better, feel free to send me a PM. It's really just a placeholder right now.
+
+The rest of the textures included are vanilla textures.
 
 # Compatibility
 
