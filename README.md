@@ -43,7 +43,7 @@ As for balance, the first tier is basically the same as vanilla but can cover th
 
 *I'd also like to thank Shinzy for giving me permission to use two textures from the old A12 Apparello mod. These two textures are assigned to be the display textures for every Arm and Leg piece of the Modular Armor sets.*
 
-*And lastly, but certainly not least, I'd like to thank Thirite for pointing out the obvious, allowing me to fix the last thing missing from the mod to finally be publish-worthy.*
+*And lastly, but certainly not least, I'd like to thank Thirite for pointing out the obvious, allowing me to fix the last thing missing from the mod to finally be release-worthy.*
 
 I'd like to mention here that the (rather shoddy) texture for the Fusion Core was made by me. Feel free to do whatever you want with it. If you think you can make something similar that's better, feel free to send me a PM. It's really just a placeholder right now.
 
