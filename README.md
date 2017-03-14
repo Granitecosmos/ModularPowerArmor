@@ -26,7 +26,7 @@ Let's not forget another small thing. These things cost a lot and I mean A LOT t
 Since the current iteration isn't exactly mod-friendly, especially not so when we include several mods, I didn't even bother with coordinates. So please use a mod that reverts the Tech Screen to pre-A16 state. Honestly, since Tynan is a cool guy who wants the game to be mod-friendly, the Tech Tree will change anyway so it isn't such a huge loss.
 I personally recommend skyarkhangel's **[Old style research menu mod](https://ludeon.com/forums/index.php?topic=28609.0)**.
 
-# Balance
+## Balance
 Is this balanced?
 Honestly, is vanilla RimWorld balanced? **OF COURSE NOT!**
 
@@ -38,7 +38,7 @@ Don't forget that this means that any Outfit you want to include these new armor
 
 As for balance, the first tier is basically the same as vanilla but can cover the hand too. The last tier makes you more powerful than a Centipede, 90% damage reduction and 90% chance to deflect damage. You'll have a long journey ahead of you to get there though...
 
-# Credits
+## Credits
 *I'd like to thank Ykara for giving me permission to use and modify the source of A12 EPOE. I've created this mod back in A12 for personal use and I wanted to achieve something I thought was only possible via C#. It turned out that wasn't really the case but I did anyway since this was my first DLL mod project ever and indeed I was successful. I didn't carry the DLL over to A13 though.*
 
 *I'd also like to thank Shinzy for giving me permission to use two textures from the old A12 Apparello mod. These two textures are assigned to be the display textures for every Arm and Leg piece of the Modular Armor sets.*
@@ -49,13 +49,13 @@ I'd like to mention here that the (rather shoddy) texture for the Fusion Core wa
 
 The rest of the textures included are vanilla textures.
 
-# Compatibility
+## Compatibility
 This mod isn't compatible with any other mod that changes:
 - Vanilla Power Armor
-- The Mechanoid race.
+- The Mechanoid race
 
 Anything else should be compatible.
 
-# Changelog
+## Changelog
 Version 1.0.16.0.0
 - Initial release
