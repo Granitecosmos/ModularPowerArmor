@@ -62,7 +62,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>8</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>11</minLevel>
 			</li>
 		</skillRequirements>
@@ -125,7 +125,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>8</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>11</minLevel>
 			</li>
 		</skillRequirements>
@@ -188,7 +188,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>8</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>11</minLevel>
 			</li>
 		</skillRequirements>
@@ -251,7 +251,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>8</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>11</minLevel>
 			</li>
 		</skillRequirements>
@@ -334,7 +334,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>11</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>12</minLevel>
 			</li>
 		</skillRequirements>
@@ -415,7 +415,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>11</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>12</minLevel>
 			</li>
 		</skillRequirements>
@@ -496,7 +496,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>11</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>12</minLevel>
 			</li>
 		</skillRequirements>
@@ -577,7 +577,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>11</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>12</minLevel>
 			</li>
 		</skillRequirements>
@@ -669,7 +669,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>14</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>13</minLevel>
 			</li>
 		</skillRequirements>
@@ -759,7 +759,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>14</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>13</minLevel>
 			</li>
 		</skillRequirements>
@@ -849,7 +849,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>14</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>13</minLevel>
 			</li>
 		</skillRequirements>
@@ -939,7 +939,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>14</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>13</minLevel>
 			</li>
 		</skillRequirements>
@@ -1040,7 +1040,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>17</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>14</minLevel>
 			</li>
 		</skillRequirements>
@@ -1139,7 +1139,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>17</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>14</minLevel>
 			</li>
 		</skillRequirements>
@@ -1238,7 +1238,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>17</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>14</minLevel>
 			</li>
 		</skillRequirements>
@@ -1337,7 +1337,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>17</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>14</minLevel>
 			</li>
 		</skillRequirements>
@@ -1438,7 +1438,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>20</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>15</minLevel>
 			</li>
 		</skillRequirements>
@@ -1537,7 +1537,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>20</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>15</minLevel>
 			</li>
 		</skillRequirements>
@@ -1636,7 +1636,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>20</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>15</minLevel>
 			</li>
 		</skillRequirements>
@@ -1735,7 +1735,7 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 				<minLevel>20</minLevel>
 			</li>
 			<li>
-				<skill>Research</skill>
+				<skill>Intellectual</skill>
 				<minLevel>15</minLevel>
 			</li>
 		</skillRequirements>
