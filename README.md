@@ -50,12 +50,16 @@ I'd like to mention here that the (rather shoddy) texture for the Fusion Core wa
 The rest of the textures included are vanilla textures.
 
 ## Compatibility
-This mod isn't compatible with any other mod that changes:
-- Vanilla Power Armor
-- The Mechanoid race
+Since A17, this mod should be compatible with any other. It uses xpathing and patching to slightly change:
+- Vanilla Power Armor recipe
+- Mechanoid disassembly drops
 
-Anything else should be compatible.
+Since patching happens after all the defs are loaded, unless another mod changes these exact same things via patching, everything should be ok.
 
 ## Changelog
 Version 1.0.16.0.0
 - Initial release
+
+Version 1.0.17b.0.0
+- Updated for A17b
+- Switched to patching for editing vanilla defs
