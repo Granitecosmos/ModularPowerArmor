@@ -77,6 +77,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
 			<layers>
@@ -249,6 +250,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
 			<layers>
@@ -416,6 +418,7 @@ Thank you Shinzy for granting me permission to use them! -->
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
+			<li>Neck</li>
 		</bodyPartGroups>
 		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
 		<layers>
@@ -583,6 +586,7 @@ Thank you Shinzy for granting me permission to use them! -->
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
+			<li>Neck</li>
 		</bodyPartGroups>
 		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
 		<layers>
@@ -753,6 +757,7 @@ Thank you Shinzy for granting me permission to use them! -->
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
+			<li>Neck</li>
 		</bodyPartGroups>
 		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
 		<layers>
