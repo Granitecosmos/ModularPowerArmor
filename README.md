@@ -63,3 +63,6 @@ Version 1.0.16.0.0
 Version 1.0.17b.0.0
 - Updated for A17b
 - Switched to patching for editing vanilla defs
+
+Version 1.0.17b.0.1
+- Fixed chest piece not covering the neck
