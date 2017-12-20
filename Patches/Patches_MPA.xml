@@ -1,39 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/ThingDefs/ThingDef[defName = "Apparel_PowerArmor"]/costList/Plasteel</xpath>
-		<Value>
-			<Plasteel>121</Plasteel>
-		</Value>
+	<!-- <Apparel_Various.xml> -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Apparel_PowerArmor"]/costList/Plasteel</xpath>
+				<value>
+					<Plasteel>121</Plasteel>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Apparel_PowerArmor"]/costList</xpath>
+				<value>
+					<FusionCore>2</FusionCore>
+				</value>
+			</li>
+		</operations>
 	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/ThingDefs/ThingDef[defName = "Apparel_PowerArmor"]/costList</xpath>
-		<Value>
-			<FusionCore>2</FusionCore>
-		</Value>
+	<!-- </Apparel_Various.xml> -->
+	<!-- <Apparel_Hats.xml> -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/costList/Plasteel</xpath>
+				<value>
+					<Plasteel>53</Plasteel>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/costList</xpath>
+				<value>
+					<FusionCore>1</FusionCore>
+				</value>
+			</li>
+		</operations>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/ThingDefs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/costList/Plasteel</xpath>
-		<Value>
-			<Plasteel>53</Plasteel>
-		</Value>
+	<!-- </Apparel_Hats.xml> -->
+	<!-- <Races_Mechanoid.xml> -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Mechanoid_Centipede"]/butcherProducts</xpath>
+				<value>
+					<FusionCore>1</FusionCore>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Mechanoid_Scyther"]/butcherProducts</xpath>
+				<value>
+					<FusionCore>1</FusionCore>
+				</value>
+			</li>
+		</operations>
 	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/ThingDefs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/costList</xpath>
-		<Value>
-			<FusionCore>1</FusionCore>
-		</Value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/ThingDefs/ThingDef[defName = "Mechanoid_Centipede"]/butcherProducts</xpath>
-		<Value>
-			<FusionCore>1</FusionCore>
-		</Value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/ThingDefs/ThingDef[defName = "Mechanoid_Scyther"]/butcherProducts</xpath>
-		<Value>
-			<FusionCore>1</FusionCore>
-		</Value>
-	</Operation>
+	<!-- </Races_Mechanoid.xml> -->
 </Patch>
