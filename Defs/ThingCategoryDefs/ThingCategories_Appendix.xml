@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- This file contains my new categories for the Modular Power Armors. That's all.
 Parent is obviously Apparel because otherwise it wouldn't be assignable in the Outfits menu. -->
-<ThingCategoryDefs>
+<Defs>
 	<!-- <Modular Power Armor Sets> -->
 	<ThingCategoryDef>
 		<defName>ModularPowerArmor</defName>
@@ -34,6 +34,4 @@ Parent is obviously Apparel because otherwise it wouldn't be assignable in the O
 		<parent>ModularPowerArmor</parent>
 	</ThingCategoryDef>
 	<!-- </Modular Power Armor Sets> -->
-</ThingCategoryDefs>
-
-
+</Defs>
