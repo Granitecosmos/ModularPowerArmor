@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Here you'll find the new Power Armor sets.
 I've left some notes here and there if someone is curious enough to explore this file. Search for "Note"to quickly jump to them.
 If you want to quickly jump to the beginning or end of a specific tier, search for <Mark I> or </Mark I>.
@@ -12,7 +12,7 @@ Not to mention how horribly unbalanced the quality price scaling is in this game
 Those textures are unmodified Rimworld ones. -->
 <!-- Note: Arm and Leg entries use textures from the old Apparello mod. All credits goes to Shinzy for the textures.
 Thank you Shinzy for granting me permission to use them! -->
-<ThingDefs>
+<Defs>
 	<ThingDef Name="ApparelModularPowerArmor" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<techLevel>Spacer</techLevel>
@@ -79,7 +79,7 @@ Thank you Shinzy for granting me permission to use them! -->
 				<li>Torso</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+			<wornGraphicPath>Apparel/PowerArmor/PowerArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -124,7 +124,7 @@ Thank you Shinzy for granting me permission to use them! -->
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+			<wornGraphicPath>Apparel/PowerArmor/PowerArmorHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -252,7 +252,7 @@ Thank you Shinzy for granting me permission to use them! -->
 				<li>Torso</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+			<wornGraphicPath>Apparel/PowerArmor/PowerArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -294,7 +294,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmorHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -420,7 +420,7 @@ Thank you Shinzy for granting me permission to use them! -->
 			<li>Torso</li>
 			<li>Neck</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmor</wornGraphicPath>
 		<layers>
 			<li>Middle</li>
 			<li>Shell</li>
@@ -462,7 +462,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmorHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -588,7 +588,7 @@ Thank you Shinzy for granting me permission to use them! -->
 			<li>Torso</li>
 			<li>Neck</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmor</wornGraphicPath>
 		<layers>
 			<li>Middle</li>
 			<li>Shell</li>
@@ -630,7 +630,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmorHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -759,7 +759,7 @@ Thank you Shinzy for granting me permission to use them! -->
 			<li>Torso</li>
 			<li>Neck</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmor</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmor</wornGraphicPath>
 		<layers>
 			<li>Middle</li>
 			<li>Shell</li>
@@ -803,7 +803,7 @@ Thank you Shinzy for granting me permission to use them! -->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<worngraphicPath>Apparel/PowerArmor/PowerArmorHelmet</worngraphicPath>
+		<wornGraphicPath>Apparel/PowerArmor/PowerArmorHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -901,4 +901,4 @@ Thank you Shinzy for granting me permission to use them! -->
 		</apparel>
 	</ThingDef>
 	<!-- </Mark 5> -->
-</ThingDefs>
+</Defs>
