@@ -22,10 +22,6 @@ All Power Armors now require Fusion Cores to craft. You can get these by disasse
 
 Let's not forget another small thing. These things cost a lot and I mean A LOT to make. It would be kinda pointless to craft them without any way to fix them up since it costs A LOT to craft these, both resource- and time-wise. So you can "recalibrate" the highest tier pieces for some materials to essentially recraft them, fixing any damage. Isn't that nice?
 
-**However, all this power comes at a cost. In this case the cost is the Tech Tree.**
-Since the current iteration isn't exactly mod-friendly, especially not so when we include several mods, I didn't even bother with coordinates. So please use a mod that reverts the Tech Screen to pre-A16 state. Honestly, since Tynan is a cool guy who wants the game to be mod-friendly, the Tech Tree will change anyway so it isn't such a huge loss.
-I personally recommend skyarkhangel's **[Old style research menu mod](https://ludeon.com/forums/index.php?topic=28609.0)**.
-
 ## Balance
 Is this balanced?
 Honestly, is vanilla RimWorld balanced? **OF COURSE NOT!**
@@ -66,3 +62,9 @@ Version 1.0.17b.0.0
 
 Version 1.0.17b.0.1
 - Fixed chest piece not covering the neck
+
+Version 1.0.18.0.0
+- Updated for B18
+- Optimized Xpathing code
+- Finally adjusted U and Au costs to reflect volume changes made in A17 Core
+- Added separate research tab for the mod
