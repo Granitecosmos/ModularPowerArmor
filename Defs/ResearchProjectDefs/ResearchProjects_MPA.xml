@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Here are all the research projects I'm adding to the game.
-Note the lack of coordinates for the Research Tree. This is because the current iteration of the Tree is anything but mod-friendly.
-Since it will probably be changed soon anyway since Tynan is a cool guy and wants the game to be mod friendly I'm not gonna bother with it.
-I'll recommend using a mod that reverts the Tech Tree changes on the forum post instead. -->
-<ResearchProjectDefs>
+I've added my own research tab so it doesn't interfere with other mods. -->
+<Defs>
 	<ResearchProjectDef>
 		<defName>MPA-Mk1</defName>
 		<label>Modular Power Armor Mk. I</label>
@@ -17,6 +15,9 @@ I'll recommend using a mod that reverts the Tech Tree changes on the forum post 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+		<tab>MPA</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>MPA-Mk2</defName>
@@ -31,6 +32,9 @@ I'll recommend using a mod that reverts the Tech Tree changes on the forum post 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+		<tab>MPA</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>MPA-Mk3</defName>
@@ -45,6 +49,9 @@ I'll recommend using a mod that reverts the Tech Tree changes on the forum post 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+		<tab>MPA</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>MPA-Mk4</defName>
@@ -59,6 +66,9 @@ I'll recommend using a mod that reverts the Tech Tree changes on the forum post 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+		<tab>MPA</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>MPA-Mk5</defName>
@@ -73,5 +83,8 @@ I'll recommend using a mod that reverts the Tech Tree changes on the forum post 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+		<tab>MPA</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
-</ResearchProjectDefs>
+</Defs>
