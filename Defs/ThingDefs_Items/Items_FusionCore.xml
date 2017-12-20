@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- The Fusion Core, sporting the not-so-glorious texture made by me in Paint.net. -->
-<GameData>
+<Defs>
 	<ThingDef ParentName="ResourceBase">
 		<defName>FusionCore</defName>
 		<label>Fusion Core</label>
@@ -27,4 +27,4 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-</GameData>
+</Defs>
