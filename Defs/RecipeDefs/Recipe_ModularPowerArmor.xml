@@ -7,7 +7,7 @@ Obviously the other tiers have their respective roman numbers. -->
 I've asked Ykara back then if I can use the code and she granted permission, while also stating that it's not necessary.
 Indeed, it wasn't necessary at all and I haven't used the DLL since A12. Still, this pushed me to make my first DLL mod.
 Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it's really not stealing in this case. -->
-<RecipeDefs>
+<Defs>
 	<!-- <Mark1> -->
 	<RecipeDef>
 		<defName>AssembleMPA-1H</defName>
@@ -57,14 +57,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK1Helmet>1</PowerArmorMK1Helmet>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>8</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>11</minLevel>
-			</li>
+			<Crafting>8</Crafting>
+			<Intellectual>11</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -120,14 +114,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK1Chest>1</PowerArmorMK1Chest>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>8</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>11</minLevel>
-			</li>
+			<Crafting>8</Crafting>
+			<Intellectual>11</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -183,14 +171,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK1Arm>1</PowerArmorMK1Arm>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>8</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>11</minLevel>
-			</li>
+			<Crafting>8</Crafting>
+			<Intellectual>11</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -246,14 +228,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK1Leg>1</PowerArmorMK1Leg>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>8</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>11</minLevel>
-			</li>
+			<Crafting>8</Crafting>
+			<Intellectual>11</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -329,14 +305,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK2Helmet>1</PowerArmorMK2Helmet>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>11</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>12</minLevel>
-			</li>
+			<Crafting>11</Crafting>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -410,14 +380,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK2Chest>1</PowerArmorMK2Chest>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>11</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>12</minLevel>
-			</li>
+			<Crafting>11</Crafting>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -491,14 +455,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK2Arm>1</PowerArmorMK2Arm>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>11</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>12</minLevel>
-			</li>
+			<Crafting>11</Crafting>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -572,14 +530,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK2Leg>1</PowerArmorMK2Leg>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>11</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>12</minLevel>
-			</li>
+			<Crafting>11</Crafting>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -664,14 +616,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK3Helmet>1</PowerArmorMK3Helmet>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>14</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>13</minLevel>
-			</li>
+			<Crafting>14</Crafting>
+			<Intellectual>13</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -754,14 +700,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK3Chest>1</PowerArmorMK3Chest>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>14</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>13</minLevel>
-			</li>
+			<Crafting>14</Crafting>
+			<Intellectual>13</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -844,14 +784,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK3Arm>1</PowerArmorMK3Arm>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>14</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>13</minLevel>
-			</li>
+			<Crafting>14</Crafting>
+			<Intellectual>13</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -934,14 +868,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK3Leg>1</PowerArmorMK3Leg>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>14</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>13</minLevel>
-			</li>
+			<Crafting>14</Crafting>
+			<Intellectual>13</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1035,14 +963,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK4Helmet>1</PowerArmorMK4Helmet>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>17</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>14</minLevel>
-			</li>
+			<Crafting>17</Crafting>
+			<Intellectual>14</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1134,14 +1056,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK4Chest>1</PowerArmorMK4Chest>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>17</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>14</minLevel>
-			</li>
+			<Crafting>17</Crafting>
+			<Intellectual>14</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1233,14 +1149,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK4Arm>1</PowerArmorMK4Arm>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>17</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>14</minLevel>
-			</li>
+			<Crafting>17</Crafting>
+			<Intellectual>14</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1332,14 +1242,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK4Leg>1</PowerArmorMK4Leg>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>17</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>14</minLevel>
-			</li>
+			<Crafting>17</Crafting>
+			<Intellectual>14</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1433,14 +1337,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK5Helmet>1</PowerArmorMK5Helmet>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>20</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>15</minLevel>
-			</li>
+			<Crafting>20</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1532,14 +1430,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK5Chest>1</PowerArmorMK5Chest>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>20</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>15</minLevel>
-			</li>
+			<Crafting>20</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1631,14 +1523,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK5Arm>1</PowerArmorMK5Arm>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>20</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>15</minLevel>
-			</li>
+			<Crafting>20</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1730,14 +1616,8 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 			<PowerArmorMK5Leg>1</PowerArmorMK5Leg>
 		</products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>20</minLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<minLevel>15</minLevel>
-			</li>
+			<Crafting>20</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
@@ -1746,4 +1626,4 @@ Mostly with code I stol- I mean borrowed from EPOE. With permission. So yeah, it
 		<researchPrerequisite>MPA-Mk5</researchPrerequisite>
 	</RecipeDef>
 	<!-- </Mark5> -->
-</RecipeDefs>
+</Defs>
